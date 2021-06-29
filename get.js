@@ -6,6 +6,11 @@ const getKey = curry((key, obj)=>{
 const getName = getKey('name');
 const getEmail = getKey('email');
 
+// get 概念
+// (key="email", obj)=>{
+//     return obj["email"];
+// }
+
 console.log(getName({name: 'Jayden'}));
 console.log(getEmail({email: 'Jayden@yahoo.com'}));
 

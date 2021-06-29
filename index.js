@@ -20,3 +20,12 @@ const A = (FX)=>{
 A(B('1'));
 //A(B('2'));
 
+// const BB = (flag = 1, data) => {
+//    console.log('B:先做');
+//       if(flag==='1') {
+//          console.log(`策略1: 處理 ${data}`);
+//       } else if(flag==='2'){
+//          console.log(`策略2: 處理 ${data}`);
+//       }
+//       console.log('B:後做');
+// }
